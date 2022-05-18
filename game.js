@@ -35,7 +35,7 @@ function nextSequence() {
   start();
 }
 
-$(".btn").on("click", function (event) {
+$(".btnn").on("click", function (event) {
   let buttonClicked = $(this).attr("id");
   userClickedPattern.push(buttonClicked);
   playSound(buttonClicked);
